@@ -48,8 +48,6 @@ class InputIO
     {
         $this->helper->alert($ask);
 
-        $this->helper->alert('Y,n');
-
         $reader = new NonCanonicalReader($this->terminal);
 
         $inputValue = '';

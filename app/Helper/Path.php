@@ -30,6 +30,6 @@ class Path
 
     public function magento($path = '')
     {
-        return Config::getInstance()->askDefault('dir');
+        return Config::getInstance()->askDefault('dir') . $path;
     }
 }
