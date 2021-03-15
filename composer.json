@@ -1,0 +1,16 @@
+{
+    "name" : "m2/cli-core",
+    "version": "1.0.0",
+    "description": "Magento 2 Cli code",
+    "require": {
+        "php-school/cli-menu": "^4.1",
+        "symfony/process": ">=4"
+    },
+    "autoload": {
+        "psr-4": {
+            "M2\\CliCore\\App\\": "app"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
